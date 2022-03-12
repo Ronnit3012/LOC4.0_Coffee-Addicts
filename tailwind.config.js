@@ -1,7 +1,9 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    fontFamily: {
+      'body': ['"Lato"', 'sans-serif'],
+    }
   },
   plugins: [],
 }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body class="font-body">
+    <nav style="@media (max-width:500px)"
+        class="bg-neutral-800 md:flex justify-between content-around text-slate-100 px-7 py-7 md:px-14 md:py-5">
+        <div class="text-xl md:text-3xl font-bold"> Personal Coach </div>
+        <div class="text-md inline-block align-baseline  md:text-xl md:px-10">
+            <ul class="md:flex list-none gap-8" id="nav-list">
+                <li class="hover:underline inline-block align-baseline underline-offset-8"><a href="index.html">Home</a></li>
+                <li class="hover:underline underline-offset-8"><a href="dashboard.html">Dashboard</a></li>
+                <li class=""><button><a href="login.html"
+                            class="hover:underline underline-offset-8">Login</a></button> / <button><a
+                            href="signup.html" class="hover:underline underline-offset-8">Sign up</a></button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="bg-neutral-800 text-slate-100 p-5 md:p-10">
+        <div class="md:flex gap-5 pb-0">
+            <div class="md:w-7/12">
+                <p class="text-lg md:text-3xl font-bold pl-5 py-3 md:py-10">Lorem ipsum dolor sit, amet consectetur</p>
+            </div>
+            <p class="text-md md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ullam porro, necessitatibus culpa ratione beatae magni. Odit impedit corrupti quod.</p>
+        </div>
+    </main>
+</body>
+</html>
