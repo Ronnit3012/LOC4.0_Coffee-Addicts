@@ -56,7 +56,7 @@ app.get('/signup', (req, res) => {   // Making it Dynamic
 // For dashboard.hbs
 app.get('/dashboard', (req, res) => {   // Making it Dynamic
     res.render('dashboard', {
-
+        name: 'Anushka',
     });
 });
 
