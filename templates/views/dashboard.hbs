@@ -17,18 +17,18 @@
         {{>headerAfter}}
 
         <section class="bg-zinc-800 text-slate-100 content-around px-7 md:pb-10 md:pt-5 mx-auto">
-            <div class="flex justify-start pr-10 pb-0 md:mx-5 gap-32">
+            <div class="flex justify-start pr-10 pb-20 md:mx-5 gap-32">
                 <div class="md:w-7/12 pl-10">
                     <p class="text-lg md:text-3xl font-bold md:py-10">Welcome, ______!</p>
                     <p class="text-md md:text-xl pr-5">Dashboard</p>
                 </div>
                 <div class="text-slate-100 py-10 px-32 my-10">
                     <div class="card flex flex-col items-center bg-slate-100 rounded-xl shadow-2xl max-w-sm hover:scale-105 px-10 py-5">
-                            <div>
+                            <!-- <div>
                                 <img class="rounded-t-lg" src="img/yoga.png"/>
-                            </div>
+                            </div> -->
                             <h3 class="text-lg p-5 tracking-tight text-slate-800 flex justify-center text-center">
-                                YOGA</h3>
+                                Lorem ipsum dolor sit amet consectetur.</h3>
                     </div>
                 </div>
             </div>
@@ -36,66 +36,55 @@
             <!-- <br><br><br> -->
         </section>
 
-        <section class="bg-sky-600 text-slate-100 text-3xl">
-            <div class="bg-sky-600 skew-y-6 bottom-16 relative -left-0 h-36 w-full">
-            </div>
-            <div class="text-center text-slate-100 font-semibold">
-                    SPORTS AVAILABLE
+        <section class="bg-cyan-600 text-slate-100 text-4xl pb-20">
+            <div class="text-center text-slate-100 font-semibold py-10">
+                    Practise Tasks
             </div>
 
-            <div class="flex justify-center">
-                <div class="text-slate-100 py-10 px-32">
-                    <div class="card flex flex-col items-center bg-slate-100 rounded-xl shadow-2xl max-w-sm hover:scale-105 px-10 py-5">
-                            <div>
-                                <img class="rounded-t-lg" src="img/cricket.png"/>
-                            </div>
-                            <h3 class="text-lg p-5 tracking-tight text-slate-800 flex justify-center text-center">
-                                CRICKET</h3>
-                        </a>
-                    </div>
+            <nav style="@media (max-width:500px){background-color: teal;}"
+                class="bg-cyan-600 ease-in-out duration-700 md:flex justify-between content-around text-slate-100 px-7 md:px-14 md:py-4">
+
+                <div class="flex gap-32 mx-auto">
+                    <div
+                        class="text-md md:text-xl px-10 py-3 border-2 border-slate-100 hover:border-2 hover:border-zinc-800 rounded-lg hover:bg-zinc-800 md-px-10">
+                        <button id="cricket" class="cricket_b">Cricket</div>
+                    <div
+                        class="text-md md:text-xl px-10 py-3 border-2 border-slate-100 hover:border-2 hover:border-zinc-800 rounded-lg hover:bg-zinc-800 md-px-10">
+                        <button id="hockey" class="hockey_b">Hockey</button> </div>
+                    <div
+                        class="text-md md:text-xl px-10 py-3 border-2 border-slate-100 hover:border-2 hover:border-zinc-800 rounded-lg hover:bg-zinc-800 md-px-10">
+                        <button id="yoga" class="yoga_b">Yoga</button></div>
                 </div>
-                <div class="text-slate-100 py-10 px-32">
-                    <div class="card flex flex-col items-center bg-slate-100 rounded-xl shadow-2xl max-w-sm hover:scale-105 px-10 py-5">
-                            <div>
-                                <img class="rounded-t-lg" src="img/yoga.png"/>
-                            </div>
-                            <h3 class="text-lg p-5 tracking-tight text-slate-800 flex justify-center text-center">
-                                YOGA</h3>
-                        </a>
-                    </div>
+            </nav>
+
+                <div id="cricket-contain" class="cricket_b">
+                    <div class="card flex flex-col justify-center mx-auto items-center bg-slate-100 rounded-xl shadow-2xl max-w-sm px-5 pt-10 pb-10 mt-10">
+                        <!-- <div>
+                            <img class="rounded-t-lg" src="img/yoga.png"/>
+                        </div> -->
+                        <h3 class="text-lg p-5 tracking-tight text-slate-800 flex justify-center text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A rerum molestiae molestias magni dolores vel eveniet, sit quo illo harum.</h3>
                 </div>
-                <div class="text-slate-100 py-10 px-32">
-                    <div class="card flex flex-col items-center bg-slate-100 rounded-xl shadow-2xl max-w-sm hover:scale-105 px-10 py-1">
-                            <div>
-                                <img class="rounded-t-lg" src="img/hockey.png"/>
-                            </div>
-                            <h3 class="text-lg p-5 tracking-tight text-slate-800 flex justify-center text-center">
-                                HOCKEY</h3>
-                        </a>
-                    </div>
                 </div>
-            </div>
+                <div id="hockey-contain" class="hockey_b" style="display:none">
+                    <div class="card flex flex-col justify-center mx-auto items-center bg-slate-100 rounded-xl shadow-2xl max-w-sm px-5 pt-10 pb-10 mt-10">
+                        <!-- <div>
+                            <img class="rounded-t-lg" src="img/yoga.png"/>
+                        </div> -->
+                        <h3 class="text-lg p-5 tracking-tight text-slate-800 flex justify-center text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A rerum molestiae molestias magni dolores vel eveniet, sit quo illo harum.</h3>
+                </div>
+                </div>
+                <div id="yoga-contain" class="yoga_b" style="display:none">
+                    <div class="card flex flex-col justify-center mx-auto items-center bg-slate-100 rounded-xl shadow-2xl max-w-sm px-5 pt-10 pb-10 mt-10">
+                        <!-- <div>
+                            <img class="rounded-t-lg" src="img/yoga.png"/>
+                        </div> -->
+                        <h3 class="text-lg p-5 tracking-tight text-slate-800 flex justify-center text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A rerum molestiae molestias magni dolores vel eveniet, sit quo illo harum.</h3>
+                </div></div>
+
         </section>
-
-    <section class="bg-slate-800">
-        <div class="text-slate-200 text-3xl text-center py-10 font-semibold">
-            FEATURES
-        </div>
-        <div class="flex flex-col gap-10">
-            <div class="self-center card flex flex-row gap-5 items-center outline outline-3 rounded-xl shadow-2xl px-7 py-7 text-xl bg-slate-100">
-                <i class="fa-solid fa-medal fa-3x text-slate-800"></i>
-                <p class="text-slate-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fuga aperiam soluta quos amet earum?</p> 
-            </div>
-            <div class="self-center card flex flex-row gap-5 items-center outline outline-3 rounded-xl shadow-2xl px-7 py-7 text-xl bg-slate-100">
-                <i class="fa-solid fa-medal fa-3x text-slate-800"></i>
-                <p class="text-slate-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fuga aperiam soluta quos amet earum?</p> 
-            </div>
-            <div class="self-center card flex flex-row gap-5 items-center outline outline-3 rounded-xl shadow-2xl px-7 py-7 text-xl bg-slate-100 mb-20">
-                <i class="fa-solid fa-medal fa-3x text-slate-800"></i>
-                <p class="text-slate-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fuga aperiam soluta quos amet earum?</p> 
-            </div>
-        </div>
-    </section>
 
 
     </div>
